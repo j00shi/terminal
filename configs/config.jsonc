@@ -47,7 +47,7 @@
 		{
 			"type": "bios",
 			"key": "{#90}│ {#96}BIOS      {#90}│",
-			"format": "{$1}{vendor} {version} {#2}[{type}] [{release}]",
+			"format": "{$1}{vendor} {version} {#2}[{type}]{?release} [{release}]{?}",
 		},
 		{
 			"type": "bootmgr",
@@ -57,7 +57,7 @@
 		{
 			"type": "host",
 			"key": "{#90}│ {#96}Host      {#90}│",
-			"format": "{$1}{vendor} {#2}[{name}]",
+			"format": "{$1}{vendor} {#2}[{name<40}]",
 		},
 		{
 			"type": "uptime",
@@ -125,7 +125,7 @@
 			"key": "{#90}│ {#94}CPU       {#90}│",
 			"showPeCoreCount": true,
 			"temp": true,
-			"format": "{$1}{name} {#2}[C:{core-types}] [{freq-base}]{?temperature} [{temperature}]{?}",
+			"format": "{$1}{name} {#2}[C:{core-types}] [{freq-max}]{?temperature} [{temperature}{#2}]{?}",
 		},
 		{
 			"type": "gpu",
@@ -137,7 +137,7 @@
 		{
 			"type": "board",
 			"key": "{#90}│ {#94}Board     {#90}│",
-			"format": "{$1}{vendor} {name} {#2}[{version}]",
+			"format": "{$1}{vendor} {name} {#2}{?version} [{version}]{?}",
 		},
 		{
 			"type": "display",
@@ -168,7 +168,7 @@
 		{
 			"type": "wm",
 			"key": "{#90}│ {#95}WM        {#90}│",
-			"format": "{$1}{pretty-name} ({process-name}) {#2}[{protocol-name}]",
+			"format": "{$1}{pretty-name} ({process-name}) {#2}{?protocol-name} [{protocol-name}]{?}",
 		},
 		{
 			"type": "wmtheme",
@@ -177,12 +177,12 @@
 		},
 		{
 			"type": "theme",
-			"key": "{#90}│ {#95}Theme QT  {#90}│",
+			"key": "{#90}│ {#95}Theme 1   {#90}│",
 			"format": "{$1}{theme1}",
 		},
 		{
 			"type": "theme",
-			"key": "{#90}│ {#95}Theme GTK {#90}│",
+			"key": "{#90}│ {#95}Theme 2   {#90}│",
 			"format": "{$1}{theme2}",
 		},
 		{
@@ -205,11 +205,5 @@
 			"key": "{#90}╰───────────╯",
 			"format": "{#90}╰────────────────────────────────────────────────────────────╯",
 		},
-		// {
-		// 	"type": "command",
-		// 	"key": "{#90}│ {#92}Test      {#90}│",
-		// 	"text": "echo Test",
-		// 	"format": "{$1}{result}",
-		// },
 	],
 }
