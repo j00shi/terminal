@@ -1,16 +1,16 @@
-# macOS
+# macOS system files
 .DS_Store
 .AppleDouble
 .LSOverride
 
-# Screenshots (local only)
-screenshots/
+# macOS Finder metadata
+Icon?
+._*
 
-# Editor
-.vscode/
-.idea/
-*.swp
-*.swo
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Logs
-*.log
+# Linux trash
+.Trash-*

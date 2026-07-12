@@ -3,7 +3,7 @@
 This repo contains my fastfetch as well as my shell config files.
 On startup it selects a random ASCII art from `ascii-art/generated/` directory.
 
-**IMPORTANT: You need to configure the `ascii-art/generated/` location in `run.sh`/`run.fish`!**
+**IMPORTANT: You need to configure the `ascii-art/generated/` location in `run.sh`/`run.fish`/`config.fish`!**
 
 ## Install
 
@@ -19,4 +19,8 @@ _The advantage of a link is that it automatically updates the config on `git pul
 
 - [ascii-image-converter](https://github.com/TheZoraiz/ascii-image-converter)
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- A shell such as bash, zsh or fish
+
+## Screenshots
+
+![macOS](./screenshots/macOS.png)
+![CachyOS](./screenshots/CachyOS.png)
