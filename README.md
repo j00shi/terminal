@@ -1,17 +1,22 @@
 # Random ASCII Art in fastfetch
 
-This repo contains my fastfetch config as well as my fish_greeting.
-On startup it selects a random ASCII art from `~/ascii-art/generated/`.
+This repo contains my fastfetch as well as my shell config files.
+On startup it selects a random ASCII art from `ascii-art/generated/` directory.
 
-## Linux
+**IMPORTANT: You need to configure the `ascii-art/generated/` location in `run.sh`/`run.fish`!**
 
-Place `config.jsonc` in `~/.config/fastfetch/`
-Place `config.fish` in `~/.config/fish/`
+## Install
 
-# Requirements
+Place or link `config.jsonc` to `~/.config/fastfetch/`
+
+Bash: Append path of `run.sh`-file (e.g. `~/Code/terminal/run.sh`) to `~/.bashrc`
+Zsh: Append path of `run.sh`-file (e.g. `~/Code/terminal/run.sh`) to `~/.zshrc`
+Fish: Place or link `config.fish` to `~/.config/fish/`
+
+_The advantage of a link is that it automatically updates the config on `git pull`._
+
+## Requirements
 
 - [ascii-image-converter](https://github.com/TheZoraiz/ascii-image-converter)
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- Shell: fish
-
-_Will support more shells later_
+- A shell such as bash, zsh or fish
