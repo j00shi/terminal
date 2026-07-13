@@ -8,8 +8,8 @@ for f in *.{jpg,jpeg,png,gif,bmp,webp,tiff,tif}
             set extra --threshold 80
         case kita.jpg fern.jpg
             set extra --threshold 100
-        case richeh1.jpg idk28.jpg roxy.jpg idk57.jpg
-            set extra --threshold 140 frieren.jpg
+        case richeh1.jpg idk28.jpg roxy.jpg idk57.jpg frieren.jpg
+            set extra --threshold 140
         case makima5.jpg bocchi.jpg coco.webp frieren3.png
             set extra --threshold 160
         case marcille.jpg frieren2.jpg frieren1.jpg nijika.png
