@@ -10,6 +10,9 @@ On startup it selects a random ASCII art from `ascii-art/generated/` directory.
 
 Place or link `config.jsonc` to `~/.config/fastfetch/`
 
+> [!hint]
+> You will need to rename `config_macOS.jsonc` or `config_macOS.jsonc` to `config.jsonc` depending on your OS.
+
 **Bash**: Append path of `run.sh`-file (e.g. `~/Code/terminal/run.sh`) to `~/.bashrc`
 **Zsh**: Append path of `run.sh`-file (e.g. `~/Code/terminal/run.sh`) to `~/.zshrc`
 **Fish**: Place or link `config.fish` to `~/.config/fish/` (or you can use `run.fish`)

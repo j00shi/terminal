@@ -177,12 +177,12 @@
 		},
 		{
 			"type": "theme",
-			"key": "{#90}│ {#95}Theme 1   {#90}│",
+			"key": "{#90}│ {#95}Theme Qt  {#90}│",
 			"format": "{$1}{theme1}"
 		},
 		{
 			"type": "theme",
-			"key": "{#90}│ {#95}Theme 2   {#90}│",
+			"key": "{#90}│ {#95}Theme GTK {#90}│",
 			"format": "{$1}{theme2}"
 		},
 		{
