@@ -3,7 +3,7 @@
 This repo contains my fastfetch as well as my shell config files.
 On startup it selects a random ASCII art from `ascii-art/generated/` directory.
 
-> [!danger] IMPORTANT
+> [!warning]
 > You need to configure the `ascii-art/generated/` location in `run.sh`/`run.fish`/`config.fish`!
 
 ## Install
@@ -29,5 +29,10 @@ _If you only want a greeting in certain terminals you can set it up like so: `[[
 
 ## Screenshots
 
+### MacOS
+
 ![macOS](./screenshots/macOS.png)
+
+### CachyOS (KDE)
+
 ![CachyOS](./screenshots/CachyOS.png)
