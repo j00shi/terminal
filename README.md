@@ -3,14 +3,14 @@
 This repo contains my fastfetch as well as my shell config files.
 On startup it selects a random ASCII art from `ascii-art/generated/` directory.
 
-> [!warning]
+> [!warning] Do this or it will not work!
 > You need to configure the `ascii-art/generated/` location in `run.sh`/`run.fish`/`config.fish`!
 
 ## Install
 
 Place or link `config.jsonc` to `~/.config/fastfetch/`
 
-> [!hint]
+> [!important]
 > You will need to rename `config_macOS.jsonc` or `config_macOS.jsonc` to `config.jsonc` depending on your OS.
 
 **Bash**: Append path of `run.sh`-file (e.g. `~/Code/terminal/run.sh`) to `~/.bashrc`
@@ -19,7 +19,7 @@ Place or link `config.jsonc` to `~/.config/fastfetch/`
 
 _If you only want a greeting in certain terminals you can set it up like so: `[[ "$TERM_PROGRAM" == "ghostty" ]] && ~/Code/terminal/run.sh`. The greeting will only appear in Ghostty in this case._
 
-> [!info]
+> [!tip]
 > The advantage of a link is that it automatically updates the config on `git pull`.
 
 ## Dependencies
