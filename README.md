@@ -22,10 +22,22 @@ _If you only want a greeting in certain terminals you can set it up like so: `[[
 > [!info]
 > The advantage of a link is that it automatically updates the config on `git pull`.
 
-## Requirements
+## Dependencies
 
-- [ascii-image-converter](https://github.com/TheZoraiz/ascii-image-converter)
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
+- [ascii-image-converter](https://github.com/TheZoraiz/ascii-image-converter) (only if you plan on generating ASCII)
+
+### Optional
+
+Fish comes with useful features such as auto-suggestions, syntax highlighting and a substring-based search history. These also exist for Bash and Zsh with the following plugins.
+
+**Zsh**:
+
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search)
+
+**Bash**: [ble.sh](https://github.com/akinomyoga/ble.sh).
 
 ## Screenshots
 
