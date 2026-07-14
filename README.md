@@ -3,7 +3,7 @@
 This repo contains my fastfetch as well as my shell config files.
 On startup it selects a random ASCII art from `ascii-art/generated/` directory.
 
-> [!warning] Do this or it will not work!
+> [!warning]
 > You need to configure the `ascii-art/generated/` location in `run.sh`/`run.fish`/`config.fish`!
 
 ## Install
