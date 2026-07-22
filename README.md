@@ -20,7 +20,7 @@ Place or link `config.jsonc` to `~/.config/fastfetch/`
 _If you only want a greeting in certain terminals you can set it up like so: `[[ "$TERM_PROGRAM" == "ghostty" ]] && ~/Code/terminal/run.sh`. The greeting will only appear in Ghostty in this case._
 
 > [!tip]
-> The advantage of a link is that it automatically updates the config on `git pull`.
+> The advantage of a link is that it automatically updates the config on `git pull`. Must be a hard link!
 
 ## Dependencies
 
