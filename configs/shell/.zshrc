@@ -1,8 +1,9 @@
-export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$HOME/go/bin:$PATH"
 eval "$(direnv hook zsh)"
+eval "$(starship init zsh)"
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
-[[ "$TERM_PROGRAM" == "ghostty" && $- == *i* ]] && ~/Code/terminal/run.sh
+[[ "$TERM_PROGRAM" == "ghostty" ]] && ~/Code/terminal/run.sh

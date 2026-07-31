@@ -29,6 +29,8 @@ _If you only want a greeting in certain terminals you can set it up like so: `[[
 
 ### Optional
 
+#### Useful Shell Plugins
+
 Fish comes with useful features such as auto-suggestions, syntax highlighting and a substring-based search history. These also exist for Bash and Zsh with the following plugins.
 
 **Zsh**:
@@ -39,12 +41,16 @@ Fish comes with useful features such as auto-suggestions, syntax highlighting an
 
 **Bash**: [ble.sh](https://github.com/akinomyoga/ble.sh).
 
+#### Customizable Prompt
+
+I use [Starship](https://github.com/starship/starship) with the [Catppuccin Powerline](https://starship.rs/presets/catppuccin-powerline) present, since I don't have a custom config _yet_. [Spaceship](https://github.com/spaceship-prompt/spaceship-prompt) is a valid alternative, but it only works on Zsh and customizing it works different compared to Starship.
+
 ## Screenshots
 
 ### MacOS
 
-![macOS](./screenshots/macOS.png)
+![macOS](./screenshots/macOS1.png)
 
 ### CachyOS (KDE)
 
-![CachyOS](./screenshots/CachyOS.png)
+![CachyOS](./screenshots/CachyOS0.png)
