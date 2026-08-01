@@ -55,4 +55,4 @@ I use [Starship](https://github.com/starship/starship) with the [Catppuccin Powe
 
 ### CachyOS (KDE)
 
-![CachyOS](./screenshots/CachyOS0.png)
+![CachyOS](./screenshots/CachyOS1.png)
