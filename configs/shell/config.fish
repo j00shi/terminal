@@ -10,3 +10,5 @@ function fish_greeting
         fastfetch --logo (random choice $files) --logo-type file
     end
 end
+
+starship init fish | source
