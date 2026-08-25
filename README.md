@@ -49,10 +49,10 @@ I use [Starship](https://github.com/starship/starship) with the [Catppuccin Powe
 
 ## Screenshots
 
-### macOS
+### Ghostty (macOS)
 
 ![macOS](./screenshots/macOS1.png)
 
-### CachyOS (KDE)
+### Konsole (KDE)
 
 ![CachyOS](./screenshots/CachyOS1.png)
