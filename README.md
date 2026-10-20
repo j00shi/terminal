@@ -8,7 +8,7 @@ On startup, it selects a random ASCII art from the `ascii-art/generated/` direct
 
 ## Install
 
-Place or link `config.jsonc` to `~/.config/fastfetch/`
+Place or link `config.jsonc` into `~/.config/fastfetch/`
 
 > [!important]
 > You will need to rename `config_macOS.jsonc` or `config_macOS.jsonc` to `config.jsonc` depending on your OS.
