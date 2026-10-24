@@ -4,15 +4,15 @@ cd "./images/"
 for f in *.{jpg,jpeg,png,gif,bmp,webp,tiff,tif}
     set -e extra
     switch "$f" # File specific overwrites
-        case fami1.jpg makima4.jpg fami.jpg
+        case fami1.jpg makima4.jpg fami.jpg talia1.webp
             set extra --threshold 80
-        case kita.jpg fern.jpg
+        case kita.jpg fern.jpg lucy1.png rally.png
             set extra --threshold 100
         case richeh1.jpg idk28.jpg roxy.jpg idk57.jpg frieren.jpg
             set extra --threshold 140
-        case makima5.jpg bocchi.jpg coco.webp frieren3.png
+        case makima5.jpg bocchi.jpg coco.webp frieren3.png lucy.png uta.png talia.webp
             set extra --threshold 160
-        case marcille.jpg frieren2.jpg frieren1.jpg nijika.png
+        case marcille.jpg frieren2.jpg frieren1.jpg nijika.png mio.png
             set extra --threshold 180
     end
     ascii-image-converter -b -W 64 -C "$f" $extra > ../generated/(path change-extension txt $f)
