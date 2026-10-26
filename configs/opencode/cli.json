@@ -1,0 +1,14 @@
+{
+	"$schema": "https://opencode.ai/v2/cli.json",
+	"theme": {
+		"name": "catppuccin-macchiato"
+	},
+	"plugins": [
+		{
+			"package": "~/opencode-plugins/bee-gee",
+			"options": {
+				"image": "/Users/I749909/Code/terminal/configs/opencode/lain.png"
+			}
+		}
+	]
+}
