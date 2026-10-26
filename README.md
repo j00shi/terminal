@@ -47,6 +47,10 @@ I also recommend silencing the login message like this `touch ~/.hushlogin`.
 
 I use [Starship](https://github.com/starship/starship) with the [Catppuccin Powerline](https://starship.rs/presets/catppuccin-powerline) present, since I don't have a custom config _yet_. [Spaceship](https://github.com/spaceship-prompt/spaceship-prompt) is a valid alternative, but it only works on Zsh, and customizing it works differently compared to Starship.
 
+#### OpenCode Wallpaper
+
+I use this [repo](https://github.com/parthkhxndelwal/bee-gee). You might need OpenCode to fix the plugin though.
+
 ## Screenshots
 
 ### Ghostty (macOS)

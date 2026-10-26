@@ -5,9 +5,9 @@
 	},
 	"plugins": [
 		{
-			"package": "~/opencode-plugins/bee-gee",
+			"package": "~/Code/opencode-plugins/bee-gee",
 			"options": {
-				"image": "/Users/I749909/Code/terminal/configs/opencode/lain.png"
+				"image": "/home/joshi/Code/terminal/configs/opencode/images/Serial Experiments Lain 4.png"
 			}
 		}
 	]
